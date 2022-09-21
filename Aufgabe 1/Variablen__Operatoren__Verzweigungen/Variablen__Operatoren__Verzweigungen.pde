@@ -1,11 +1,12 @@
 void setup() {
-  int x = 200;
-  int y = 200;
-  background(255,255,255);
+  int x = 200; // Position der Kreise auf X-Achse
+  int y = 200; // Position der Kreise auf Y-Achse
+  int r = 25; // Radius
+  background(255, 255, 255);
   size(400, 400);
-  circle(x,y,100); // äußerer Kreis
+  circle(x, y, r*8); // äußerer Kreis
   fill(0,0,255);
-  circle(x,y,75); // mittlerer Kreis
+  circle(x, y, r*4); // mittlerer Kreis
   fill(255,0,0);
-  circle(x,y,50); // innerer Kreis
+  circle(x, y, r*2); // innerer Kreis
 }
