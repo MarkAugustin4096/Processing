@@ -1,7 +1,7 @@
   int squaresize = 200; // Höhe und Breite der Quadrate
-  int squaredepth = 50; // Tiefe des Quadrats
-  int squarebackPosition = 250 - squaredepth / 2; // Position des hinteren Quadrats
-  int squarefrontPosition = 250 + squaredepth / 2; // Position des vorderen Quadrats
+  int cubedepth = 50; // Tiefe des Würfels
+  int squarebackPosition = 250 - cubedepth / 2; // Position des hinteren Quadrats
+  int squarefrontPosition = 250 + cubedepth / 2; // Position des vorderen Quadrats
 void setup() {
   size(800, 800);
   background(255, 255, 255);
