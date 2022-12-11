@@ -13,3 +13,5 @@ void setup() {
   line(squarebackPosition + squaresize, squarebackPosition + squaresize, squarefrontPosition + squaresize, squarefrontPosition + squaresize); //Zeichnet untere rechte Linie
   square(squarefrontPosition, squarefrontPosition, squaresize); //Zeichnet vorderes Quadrat
 }
+
+// Test
